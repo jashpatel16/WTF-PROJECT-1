@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata Requirements -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Front-End Web Developer">
+    <meta name="description" content="GreenLeaf Organics Pvt. Ltd. offers fresh, premium organic food products certified for sustainable health and wellness.">
+    <title>GreenLeaf Organics | Pure & Sustainable Food Products</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section with Company Logo -->
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="GreenLeaf Organics Logo" width="150" height="50">
+        </div>
+        <h1>GreenLeaf Organics Pvt. Ltd.</h1>
+        <p>Nourishing Life, Naturally</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Our Products</a></li>
+            <li><a href="#featured">Featured Offerings</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main id="home">
+
+        <!-- Featured Section / Image Banner -->
+        <section id="featured">
+            <h2>Fresh From Our Farms To Your Table</h2>
+            <figure>
+                <img src="images/banner.jpg" alt="Fresh organic vegetables basket" style="width:100%; max-width:1200px; height:auto;">
+                <figcaption>100% Certified Organic and Locally Sourced Harvest.</figcaption>
+            </figure>
+            <p>Discover our newly launched range of farm-fresh, seasonal organic fruits and hand-picked herbal teas.</p>
+        </section>
+
+        <!-- About the Company Section -->
+        <section id="about">
+            <h2>About Our Company</h2>
+            <p>Established in 2026, GreenLeaf Organics Pvt. Ltd. specializes in producing and delivering premium quality organic food products. Our mission is to promote sustainable farming practices while ensuring our customers receive the purest nutrition without synthetic chemicals or pesticides.</p>
+            <h3>Our Core Values</h3>
+            <ul>
+                <li>Sustainability & Eco-friendliness</li>
+                <li>Uncompromised Product Quality</li>
+                <li>Support for Local Smallholder Farmers</li>
+            </ul>
+        </section>
+
+        <!-- Products and Services Section with Table -->
+        <section id="products">
+            <h2>Our Products & Services</h2>
+            <p>We provide a wide range of organic staples and fresh produce cataloged below:</p>
+            
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Product Category</th>
+                        <th>Description</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fresh Fruits & Vegetables</td>
+                        <td>Seasonal items harvested daily.</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Organic Grains & Pulses</td>
+                        <td>Whole grains processed naturally.</td>
+                        <td>In Stock</td>
+                    </tr>
+                    <tr>
+                        <td>Herbal Teas & Spices</td>
+                        <td>Rich in antioxidants and flavor.</td>
+                        <td>Limited Supply</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Article Component for a Blog or Highlight feature -->
+        <section>
+            <article>
+                <h3>Why Choose Organic Food?</h3>
+                <p>Published by: <strong>Health & Wellness Team</strong></p>
+                <p>Organic foods contain higher concentrations of certain antioxidants and essential nutrients compared to conventionally grown counterparts. Choosing organic directly reduces your exposure to toxic chemical pesticide residues...</p>
+                <a href="#read-more">Read Full Article</a>
+            </article>
+        </section>
+
+        <!-- Aside Component for Sidebar Content -->
+        <aside>
+            <h3>Weekly Special Announcement</h3>
+            <p>Get <strong>15% OFF</strong> your first order by signing up for our organic newsletter below!</p>
+        </aside>
+
+        <!-- Contact Information & Form Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to our dedicated support team.</p>
+            
+            <!-- Address and Contact Details -->
+            <address>
+                <p>Email: <a href="mailto:info@greenleaforganics.com">info@greenleaforganics.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                <p>Headquarters: 123 Eco-Friendly Way, Green City, Planet Earth</p>
+            </address>
+
+            <h3>Send Us a Message</h3>
+            <!-- Functional Inquiry Form -->
+            <form action="#" method="POST">
+                <p>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required placeholder="Lionel Messi">
+                </p>
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="leomessi10@gmail.com">
+                </p>
+                <p>
+                    <label for="message">Your Inquiry:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" required placeholder="Write your message here..."></textarea>
+                </p>
+                <p>
+                    <button type="submit">Submit Inquiry</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Component -->
+    <footer>
+        <p>&copy; 2026 GreenLeaf Organics Pvt. Ltd. All rights reserved.</p>
+        <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
